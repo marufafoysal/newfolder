@@ -1,0 +1,267 @@
+body{
+  
+    background-color: rgb(190, 190, 190,.4);
+  
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .section-width{
+    width: 100%;
+    max-width: 1220px;
+    margin: auto;
+} */
+section{
+   margin: 70px 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 20px 20px;
+    width: 1110px;
+    margin: auto;
+ 
+}
+.contor-naver{
+    box-shadow: 1px 1px 10px black;
+}
+
+.evern-column{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+font-size: 1.5em;
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    text-transform: capitalize;
+     
+}
+
+.oneMORE{
+    max-width: 1110px;
+    margin: auto;
+}
+.contor-class {
+    text-align: right;
+ }
+.container-x{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    
+}
+ 
+.footer{
+    width: 100%;
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    
+}
+/* naver style  */
+
+.logo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo> img{
+    width: 50px;
+}
+ 
+.logo span{
+   font-size: 2em;
+   text-transform: capitalize;
+   font-weight: bold;
+   color: white;
+}
+ul li {
+    display:inline-block;
+    margin: 0 20px;
+
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+
+}
+.socai{
+    display:flex;
+    gap: 60px;
+    align-items: center;
+   
+ 
+    
+    
+  
+}
+ /* main style */
+
+.tsxt{
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 25px;
+}
+ .image-contorl img{
+    display: inline-block;
+    width: 100%;
+    max-width:80%;
+}
+
+ 
+.image-bar img{
+    display: inline-block;
+    width: 100%;
+    max-width: 100%;
+}
+ 
+ 
+
+ 
+.tsxt h1{
+    color: #F948B2 ;
+    font-size:2em;
+    font-weight: bold;
+}
+.contor-class{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.button-fel{
+    display: flex;
+    gap: 20px;
+}
+.button-fel .button{
+    padding: 15px 30px;
+    border: none;
+    background-color: #F948B2;
+    border-radius: 30px;
+}
+.change3{
+    background-color: #4EC5F7;
+     padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    
+}
+.tkdjfk   {
+   display: flex;
+   gap:10px;
+   align-items: center;
+   background-color: rgb(122, 116, 116, .4);
+   padding: 10px 20px;
+   border-radius: 10px;
+    
+ }
+.ckdjfkdjf{
+    text-align: center;
+    font-size: 1em;
+    padding: 10px 0px
+}
+ .xydj{
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+ }
+.ima-text{
+    
+    width: 100%;
+   max-width: 40%;
+}
+
+.container{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+    gap: 40px;
+    
+}
+.image-text {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    
+    
+;
+}
+.footer{
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+.footer-color{
+    background-color: #0B0223;
+}
+ ul li a.color-white{
+    color: white;
+ }
+ p.color-white{
+    color: white;
+ }
+
+ @media (max-width:711px) {
+    .evern-column{
+        flex-direction: column;
+    }
+    .contor-class {
+        text-align: center;
+     }
+     .container-x{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 40px;
+        padding: 50px;
+        
+    }
+   
+    ul li {
+        display: block;
+        margin: 20px 0;
+    }
+    .socai{
+        display:flex;
+        flex-direction: column;
+        
+       gap: 0;
+   
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+       
+        box-shadow: 1px 1px 10px black;
+  
+    }
+ }
+ .image-text:hover {
+    background-color: #fff;
+    padding: 1px 25px;
+    border: 2px solid #F948B2;
+    border-radius: 20px;
+    transition: .5s;
+ }
+ .image-text  {
+    
+    padding: 1px 25px;
+     
+    border-radius: 20px;
+  
+ }
